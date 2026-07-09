@@ -887,6 +887,11 @@ button {
   white-space: nowrap;
 }
 
+/* 큐시트 하단 '왜 도움이 되는지' 설명 블록 */
+.schedule-why {
+  margin-top: var(--space-10);
+}
+
 .reviews {
   background: var(--color-ivory);
 }
