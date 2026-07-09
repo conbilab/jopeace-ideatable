@@ -892,6 +892,28 @@ button {
   margin-top: var(--space-10);
 }
 
+/* 히어로 상단 후원사 크레딧 배지 */
+.hero-sponsor {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-5) 0 0;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background:
+    linear-gradient(135deg, rgba(47, 93, 80, .06), rgba(242, 184, 75, .1)),
+    var(--color-white);
+  color: var(--color-gray);
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.hero-sponsor strong {
+  color: var(--color-green);
+  font-weight: 900;
+}
+
 /* 후원사 섹션 */
 .sponsors {
   background: var(--color-ivory);
